@@ -55,7 +55,7 @@ module "ws_vars" {
 
 provider "aws" {
   region = lookup(module.ws_vars.variables, "region")
-  # or can be in this case
+  # change it to the following if you want to import existing resources (or in general):
   # region = terraform.workspace
 }
 

@@ -50,7 +50,7 @@ instance_names:
 
 ```terraform
 module "ws_vars" {
-  source = "git::https://github.com/balihb/terraform-variables-by-workspace.git?ref=tags/1.0.0"
+  source = "git::https://github.com/balihb/terraform-variables-by-workspace.git?ref=tags/v1.0.1"
 }
 
 provider "aws" {
